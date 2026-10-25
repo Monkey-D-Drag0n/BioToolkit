@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ code }} · BioToolkit</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>.error-page{max-width:600px;margin:14vh auto;padding:30px}.error-page h1{color:#83f3b4;font:500 38px 'DM Mono',monospace}.error-page p{color:#b2c5b8}.error-page a{color:#83f3b4}</style>
+</head>
+<body><main class="panel error-page"><span class="eyebrow">BIOTOOLKIT · REQUEST STATUS</span><h1>{{ code }}</h1><p>{{ message }}</p><a href="/">Return to sequence workspace →</a></main></body>
+</html>
